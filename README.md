@@ -41,6 +41,14 @@ Definition of applying the style selector by priorities. The element will apply 
 ## `:nth` CSS Selector
 
 ```css
+/* Select first and last li */
+li:first-child
+li:last-child
+
+/* Select odd and even li */
+li:nth-child(odd)
+li:nth-child(even)
+
 /* Select fifth li */
 li:nth-child(5)
 
@@ -50,13 +58,6 @@ li:nth-child(n+6)
 /* Same as select 4n+1 li */
 li:nth-child(4n-7)
 
-/* Select odd and even li */
-li:nth-child(odd)
-li:nth-child(even)
-
-/* Select first and list li */
-li:first-child
-li:last-child
 ```
 
 ## `Special Symbols` CSS Selector
