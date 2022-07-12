@@ -64,7 +64,7 @@ li:nth-child(-n+6)
 li:nth-child(4n-7)
 ```
 
-![](https://github.com/D50000/CSS-advanced/blob/master/assets/:nth.jpg)
+<img src="https://github.com/D50000/CSS-advanced/blob/master/assets/:nth.jpg" width="400" height="400"/>
 
 ## `Special Symbols` CSS Selector
 
