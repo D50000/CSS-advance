@@ -56,14 +56,15 @@ li:nth-child(5)
 li:nth-last-child(2)
 
 /* Select all li above sixth */
-/* Select all li onw ~ sixth */
+/* Select all li one ~ sixth */
 li:nth-child(n+6)
 li:nth-child(-n+6)
 
 /* Same as select 4n+1 li */
 li:nth-child(4n-7)
-
 ```
+
+![](https://github.com/D50000/CSS-advanced/blob/main/assets/:nth.jpg)
 
 ## `Special Symbols` CSS Selector
 
