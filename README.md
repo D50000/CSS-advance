@@ -2,7 +2,7 @@
 
 Here will note the important concept and advance skill of css.
 
-## CSS Specificity
+## CSS `Specificity`
 
 Definition of applying the style selector by priorities. The element will apply the highest Specificity's style.
 
@@ -35,14 +35,28 @@ Definition of applying the style selector by priorities. The element will apply 
 
 1. **Inline style**
 2. **#id**
-3. **Classes style, pseudo-classes, attribute selectors** Example: .test, :hover, [href]
+3. **Classes style, pseudo-classes, attribute selectors** -> Example: .test, :hover, [href]
 4. **HTML tag style**
 
-## Special Symbols CSS Selector
+## `:nth` CSS Selector
 
+```css
+/* Select fifth li */
+li:nth-child(5)
+
+/* Select all li above sixth */
+li:nth-child(n+6)
+
+/* Same as select 4n+1 li */
+li:nth-child(4n-7) 
+```
+
+## `Special Symbols` CSS Selector
 
 ### Reference
 
 - https://www.w3schools.com/css/css_specificity.asp
+- https://github.com/D50000/ob-hover
+- https://css-tricks.com/examples/nth-child-tester/
 - https://css-tricks.com/useful-nth-child-recipies/
 - https://techbrij.com/css-selector-adjacent-child-sibling
