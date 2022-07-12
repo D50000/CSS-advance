@@ -52,8 +52,13 @@ li:nth-child(even)
 /* Select fifth li */
 li:nth-child(5)
 
+/* Select last second li */
+li:nth-last-child(2)
+
 /* Select all li above sixth */
+/* Select all li onw ~ sixth */
 li:nth-child(n+6)
+li:nth-child(-n+6)
 
 /* Same as select 4n+1 li */
 li:nth-child(4n-7)
