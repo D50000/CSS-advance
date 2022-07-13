@@ -38,7 +38,7 @@ Definition of applying the style selector by priorities. The element will apply 
 3. **Classes style, pseudo-classes, attribute selectors** -> Example: .test, :hover, [href]
 4. **HTML tag style**
 
-## `:nth` CSS Selector
+## `:nth` Selector
 
 ```css
 /* Select first and last li */
@@ -66,7 +66,23 @@ li:nth-child(4n-7)
 
 <img src="https://github.com/D50000/CSS-advanced/blob/master/assets/:nth.jpg" width="400" height="400"/>
 
-## `Special Symbols` CSS Selector
+## `Special Symbols` Selector
+
+- Have the same parent and immediately `select one` after the first selector.
+
+```css
+div + p {
+  color: green;
+}
+```
+
+- Have the same parent and `select all` after the first selector.
+
+```css
+div ~ p {
+  background-color: blue;
+}
+```
 
 ### Reference
 
